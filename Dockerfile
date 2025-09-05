@@ -1,4 +1,4 @@
-   #Use a Node.js base image
+ # Use a Node.js base image
      FROM node:20-alpine
      
      # Set the working directory
@@ -6,8 +6,8 @@
      
      # Copy package.json and package-lock.json to install dependencies
      COPY package*.json ./
- 
-    # Install dependencies
+     
+ # Install dependencies
     RUN npm install --production
     
     # Copier le run.sh script dans le répertoire de travail
