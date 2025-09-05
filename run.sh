@@ -1,2 +1,2 @@
 #!/bin/sh
- node ./deactivateExpiredLinks.js
+ node ./scripts/deactivateExpiredLinks.js
